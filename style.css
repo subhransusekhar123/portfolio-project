@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 *{
   font-family: 'Montserrat', sans-serif;
   box-sizing: border-box;
@@ -22,7 +24,7 @@
   /* background-color: var(--backGround-color); */
 }
 
-/* nav{
+nav{
   height:6rem;
   display: flex;
   justify-content: space-between;
@@ -30,15 +32,17 @@
   background-color: var(--main-color);
   color: var(--text-color);
   border-bottom-left-radius: 2rem;
-} */
+
+}
 
 
 nav{
   background-color: #4b81f5;
 }
 .logo{
+  padding-left: 2rem;
   font-size: 2rem;
-  font-family: robot,sans-serif;
+  font-family: 'Bree Serif', serif;
   background-color: #4b81f5;
   color:#fff;
 
@@ -49,17 +53,7 @@ nav{
 }
 
 
-nav{
-   
-  height:6rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: var(--main-color);
-  color: var(--text-color);
-  border-bottom-left-radius: 0px;
 
-}
 
 .nav-menu{
   width: 50%;
@@ -208,10 +202,9 @@ footer h3{
       align-items: center;
       background-color: var(--main-color);
       color: var(--text-color);
-      border-bottom-left-radius: 0px;
       padding-bottom: 1rem;
-    border-bottom-left-radius:2rem ;
-    font-family: "Montserrat";
+      font-family: "Montserrat";
+      border-bottom-left-radius: 2rem;
   }
 
   .nav-menu{
